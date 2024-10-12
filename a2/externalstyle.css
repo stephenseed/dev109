@@ -1,1 +1,34 @@
 
+h1 {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    color: white;
+    div {
+      height: 40px;
+      background-color: blue;
+    }
+}
+
+        .container {
+            display: flex;
+            width: 560px;
+            height: 70px;  
+        }
+        .whitebox {
+            width: 100%;
+            height:100%;
+            background-color: white;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .blackbox {
+            width: 100%;
+            height:100%;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }

@@ -8,6 +8,14 @@ h1 {
       background-color: blue;
     }
 }
+    body {
+      background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/spherical-chess-board-world-jovemini-art.jpg");
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      height: 100vh; /* Ensure body takes full height */
+      margin: 0;
+    }
 
         .container {
             display: flex;

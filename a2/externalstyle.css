@@ -16,7 +16,7 @@ h1 {
       height: 100vh; /* Ensure body takes full height */
       margin: 0;
     }
-
+    p { text=align: center; }
         .container {
             display: flex;
             width: 560px;

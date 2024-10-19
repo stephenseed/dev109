@@ -13,6 +13,10 @@
 				width: 31.3%;
 				float: left;
 				margin: 1%;}
+.column1 { background-color: solid blue; }
+.column2 { background-color: solid red; }
+.column3 { background-color: solid green; }
+#feature { background-color: solid yellow; }
 			.column3 {
 				margin-right: 0%;}
 			li {

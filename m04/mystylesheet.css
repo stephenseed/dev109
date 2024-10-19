@@ -13,14 +13,14 @@
 				width: 31.3%;
 				float: left;
 				margin: 1%;}
-.column1 { background-color: blue; }
-.column2 { background-color: red; }
-.column3 { 
-	background-color: green;
-	margin-right: 0%;
-}
-#feature { background-color: yellow; }
-#nav { background-color: sold orange; }
+			.column1 { background-color: blue; }
+			.column2 { background-color: red; }
+			.column3 { 
+				background-color: green;
+				margin-right: 0%;
+			}
+			#feature { background-color: yellow; }
+			#nav { background-color: orange; }
 			li {
 				display: inline;
 				padding: 0.5em;}

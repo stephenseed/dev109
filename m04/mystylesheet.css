@@ -1,4 +1,4 @@
-					* {
+			* {
 				font-family: Arial, Verdana, sans-serif;
 				color: #665544;
 				text-align: center;}
@@ -13,8 +13,7 @@
 				margin: 1%;}
 			nav {
 				margin: 1%;
-				background-color: orange;
-			}
+				background-color: orange;}
 			.column1, .column2, .column3 {
 				width: 31.3%;
 				float: left;

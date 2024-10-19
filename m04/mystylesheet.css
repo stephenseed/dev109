@@ -6,7 +6,9 @@
 				width: 90%;
 				margin: 0 auto;}
 			#content {
-				overflow: auto;}
+				overflow: auto;
+				background-color: pink;
+			}
 			#nav, #feature, #footer {
 				margin: 1%;}
 			.column1, .column2, .column3 {

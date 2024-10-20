@@ -66,6 +66,11 @@
         .column3 {
             background-color: green;
         }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
        
     </style>
     
@@ -85,7 +90,7 @@
             </ul>
         </nav>
     </header>
-    <main id="content">
+    <main id="content" class="clearfix">
         <section id="feature">
             <h2>Feature</h2>
         </section>

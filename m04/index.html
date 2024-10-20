@@ -17,7 +17,6 @@
             margin: 0 auto;
             background-image: url("pexels-valeriya-1961778.jpg");
             background-repeat: no-repeat;
-
         }
         nav, footer {
             margin: 1%;
@@ -30,26 +29,22 @@
             display: inline;
             padding: 0.5em;
         }
-        <!-- Defining ID formatting -->
-        
+        /* Defining ID formatting */
         #content {
             overflow: auto;
             background-color: pink;
         }
-
         #feature {
             height: 10em;
             margin-bottom: 1em;
             margin: 1%;
             background-color: #8CC63E;
             background-image: url("https://icon-library.com/images/user-png-icon/user-png-icon-16.jpg");
-            background-size:contain;
+            background-size: contain;
             background-position: right;
-            background-repeat:no-repeat;
+            background-repeat: no-repeat;
         }
-
-        <!-- Defining Classes -->
-        
+        /* Defining Classes */
         .column1, .column2, .column3 {
             width: 200px;
             float: left;
@@ -66,14 +61,13 @@
         .column3 {
             background-color: green;
         }
-        .clearfix {
+        .clearfix::after {
+            content: "";
             clear: both;
+            display: table;
         }
-       
     </style>
-    
     <!-- Here is the end of the CSS Code -->
-    
 </head>
 <body>
     <header>

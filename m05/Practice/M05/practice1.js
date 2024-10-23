@@ -8,13 +8,13 @@ switch(BMI) {
   case (BMI>=19 & BMI<25):
     console.log("Your weight is normal");
     break;
-  Case (BMI >=25 AND BMI<30):
+  Case (BMI >=25 & BMI<30):
     console.log("You are overweight.");
     Break;
-  Case (BMI >=30 AND BMI<35):
+  Case (BMI >=30 & BMI<35):
     console.log("You are Obese Level 1.");   
     break;
-  Case (BMI >=35 AND BMI<40):
+  Case (BMI >=35 & BMI<40):
     console.log("You are obese level 2.");
     break;
   Case (BMI >=40):

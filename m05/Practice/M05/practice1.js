@@ -21,6 +21,6 @@ switch(BMI) {
     console.log("You are obese Level 3.")
     break;
   default:
-    console.log("You are underweight."
+    console.log("You are underweight.")
 }
 document.write('<h3>' + "Done" + '</h3>');

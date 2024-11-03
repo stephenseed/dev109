@@ -72,4 +72,9 @@
             clear: both;
             display: table;
         }
-              .custom-input { color: black; }
+        .custom-input { color: black; }
+        .container {
+                background-color: lightgrey;
+                padding: 20px;
+        }
+

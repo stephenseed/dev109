@@ -85,4 +85,10 @@
                padding: 20px;
                color: black;
         }
+       .container-left {
+              text-align: left;
+       }
+       .container-right {
+              text-align: right;
+       }
 

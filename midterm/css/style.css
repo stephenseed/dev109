@@ -79,16 +79,19 @@
            justify-content: space-between;
         }
 
-        .container-left, .container-right {
-               width: 40%; /* Adjust width as needed */
+        .container-left, {
+               width: 40%; 
                background-color: lightgrey;
                padding: 20px;
                color: black;
+               text-align: left;               
         }
-       .container-left {
-              text-align: left;
-       }
-       .container-right {
-              text-align: right;
-       }
+        .container-right {
+               width: 40%; 
+               background-color: lightgrey;
+               padding: 20px;
+               color: black;
+               text-align: right;               
+        }
+
 

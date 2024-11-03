@@ -73,8 +73,9 @@
             display: table;
         }
         .custom-input { color: black; }
-        .container {
+        .container-left {
                 background-color: lightgrey;
                 padding: 20px;
+                text-align: left;
         }
 

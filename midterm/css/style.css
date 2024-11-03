@@ -41,7 +41,6 @@
         #feature2 {
             font-family: "Dancing Script", cursive;
             text-align: left;
-            color: black;
             height: 30em;
             margin-bottom: 1em;
             margin: 1%;
@@ -73,3 +72,4 @@
             clear: both;
             display: table;
         }
+              .custom-input { color: black; }

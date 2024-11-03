@@ -10,6 +10,7 @@
             background-image: url("https://stephenseed.github.io/dev109/midterm/images/pexels-valeriya-1961778%20(1).jpg");
             background-repeat: no-repeat;
         }
+        p { color: black; }
         nav, footer {
             margin: 1%;
             background-color: orange;

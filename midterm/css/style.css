@@ -38,6 +38,16 @@
             background-position: right;
             background-repeat: no-repeat;
         }
+        #feature2 {
+            height: 30em;
+            margin-bottom: 1em;
+            margin: 1%;
+            background-color: #8CC63E;
+            background-image: url("https://icon-library.com/images/user-png-icon/user-png-icon-16.jpg");
+            background-size: contain;
+            background-position: right;
+            background-repeat: no-repeat;
+        }
         
         /* Defining Classes */
         

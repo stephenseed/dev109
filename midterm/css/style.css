@@ -78,4 +78,7 @@
                 padding: 20px;
                 text-align: left;
         }
-
+        .container-right {
+                background-color: lightgrey;
+                padding: 20px;
+                text-align: right;

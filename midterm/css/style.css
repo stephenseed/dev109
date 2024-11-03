@@ -73,15 +73,15 @@
             display: table;
         }
         .custom-input { color: black; }
-        .container-left {
-                width: 40%;
-                background-color: lightgrey;
-                padding: 20px;
-                text-align: left;
+
+        .container {
+           display: flex;
+           justify-content: space-between;
         }
-        .container-right {
-                width: 40%;
-                background-color: lightgrey;
-                padding: 20px;
-                text-align: right;
+
+        .container-left, .container-right {
+               width: 40%; /* Adjust width as needed */
+               background-color: lightgrey;
+               padding: 20px;
         }
+

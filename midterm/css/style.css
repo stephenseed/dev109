@@ -79,7 +79,7 @@
            justify-content: space-between;
         }
 
-        .container-left, {
+        .container-left {
                width: 40%; 
                background-color: lightgrey;
                padding: 20px;

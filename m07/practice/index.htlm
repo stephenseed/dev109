@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Object Practice</title>
+</head>
+<body>
+  var person1 = {
+    surname: 'Smith',
+    firstName: 'John',
+    weight: '75',
+    height: '179',
+    birthday: '03/24/1982',
+    gender: 'M',
+    hairColor: 'Black',
+    eyeColor: 'Brown',
+    calculatedBMI: function() { weight / height; }
+    };
+  var person2 = {
+    surname: 'Jones',
+    firstName: 'Mary',
+    weight: '65',
+    height: '170',
+    birthday: '06/18/1993',
+    gender: 'F',
+    hairColor: 'Brown',
+    eyeColor: 'Blue',
+    calculatedBMI: function() { weight / height; }
+    };
+  var person13 = {
+    surname: 'Rhodes',
+    firstName: 'Fred',
+    weight: '79',
+    height: '145',
+    birthday: '09/10/1963',
+    gender: 'M',
+    hairColor: 'Ginger',
+    eyeColor: 'Green',
+    calculatedBMI: function() { weight / height; }
+    };
+let people = [person1, person2, person3];
 
+</body>

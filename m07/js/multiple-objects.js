@@ -28,7 +28,7 @@ elHotel2.textContent = details2;
 
 var details3 = queenHotel.name + ' rooms: ';
     details3 += queenHotel.checkAvailability();
-var elHotel2 = document.getElementById('hotel3');
+var elHotel3 = document.getElementById('hotel3');
 elHotel3.textContent = details3;
 /* 
 NOTE: textContent does not work in IE8 or earlier

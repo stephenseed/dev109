@@ -12,7 +12,7 @@ function Hotel(name, rooms, booked) {
 // Create two hotel objects
 var quayHotel = new Hotel('Quay', 40, 25);
 var parkHotel = new Hotel('Park', 120, 77);
-var queenHotel = new Hotel('Queen',66,23);
+var sunsetHotel = new Hotel('Sunset',86,10);
 
 
 // Update the HTML for the page
@@ -26,8 +26,8 @@ var details2 = parkHotel.name + ' rooms: ';
 var elHotel2 = document.getElementById('hotel2');
 elHotel2.textContent = details2;
 
-var details3 = queenHotel.name + ' rooms: ';
-    details3 += queenHotel.checkAvailability();
+var details3 = sunsetHotel.name + ' rooms: ';
+    details3 += sunsetHotel.checkAvailability();
 var elHotel3 = document.getElementById('hotel3');
 elHotel3.textContent = details3;
 /* 

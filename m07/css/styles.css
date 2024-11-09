@@ -14,9 +14,9 @@ body {
   font-family: 'Open Sans', sans-serif;}
 
 h1 {
-  background: #1e1b1e url("../images/TravelLogo.jpg") no-repeat;
-  width: 230px;
-  height: 180px;
+  background: #1e1b1e url("../images/TravelLogo200.jpg") no-repeat;
+  width: 200px;
+  height: 200px;
   float: left;
   text-indent: 100%;
   white-space: nowrap;

@@ -1,95 +1,86 @@
-* {
-  font - family: "Dancing Script",
-  cursive;
-  color: #FFFFFF;
-  text - align: center;
-}
-body {
-  width: 90 % ;
-  margin: 0 auto;
-  background - image: url("https://stephenseed.github.io/dev109/midterm/images/pexels-valeriya-1961778%20(1).jpg");
-  background - repeat: no - repeat;
-}
-p {
-  color: black;
-}
-nav,
-footer {
-  margin: 1 % ;
-  background - color: orange;
-  height: 2em;
-  padding: 0.5em;
 
-}
-li {
-  display: inline;
-  padding: 0.5em;
-}
+        * {
+            font-family: "Dancing Script", cursive;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        body {
+            width: 90%;
+            margin: 0 auto;
+            background-image: url("https://stephenseed.github.io/dev109/midterm/images/pexels-valeriya-1961778%20(1).jpg");
+            background-repeat: no-repeat;
+        }
+        p { color: black; }
+        nav, footer {
+            margin: 1%;
+            background-color: orange;
+            height: 2em;
+            padding: 0.5em;
 
-/* Defining ID formatting */
+        }
+        li {
+            display: inline;
+            padding: 0.5em;
+        }
+        
+        /* Defining ID formatting */
+        
+        #content {
+            overflow: auto;
 
-#content {
-  overflow: auto;
+        }
+        #feature {
+            height: 10em;
+            margin-bottom: 1em;
+            margin: 1%;
+            background-color: #8CC63E;
+            background-size: contain;
+            background-position: right;
+            background-repeat: no-repeat;
+        }
+        #feature2 {
+            font-family: "Dancing Script", cursive;
+            text-align: left;
+            height: 100em;
+            margin-bottom: 1em;
+            margin: 1%;
+            background-color: #8CC63E;
+            background-size: contain;
+            background-position: right;
+            background-repeat: no-repeat;
+        }
+        
+        /* Defining Classes */
+        
+        .column1, .column2, .column3 {
+            width: 31.3%;
+            float: left;
+            margin: 1%;
+            height: 10em;
+        }
+        .column1 {
+            background-color: blue;
+        }
+        .column2 {
+            background-color: red;
+        }
+        .column3 {
+            background-color: green;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .custom-input { color: black; }
 
-}#feature {
-  height: 10em;
-  margin - bottom: 1em;
-  margin: 1 % ;
-  background - color: #8CC63E;
-  background - size: contain;
-  background - position: right;
-  background - repeat: no - repeat;
-}#feature2 {
-  font - family: "Dancing Script",
-  cursive;
-  text - align: left;
-  height: 100em;
-  margin - bottom: 1em;
-  margin: 1 % ;
-  background - color: #8CC63E;
-  background - size: contain;
-  background - position: right;
-  background - repeat: no - repeat;
-}
+        .container {
+           display: flex;
+           justify-content: space-between;
+        }
 
-/* Defining Classes */
-
-.column1,
-.column2,
-.column3 {
-  width: 31.3 % ;
-  float: left;
-  margin: 1 % ;
-  height: 10em;
-}.column1 {
-  background - color: blue;
-}.column2 {
-  background - color: red;
-}.column3 {
-  background - color: green;
-}.clearfix: :after {
-  content: "";
-  clear: both;
-  display: table;
-}.custom - input {
-  color: black;
-}
-
-.container {
-  display: flex;
-  justify - content: space - between;
-}
-
-.container - left {
-  width: 40 % ;
-  background - color: lightgrey;
-  padding: 20px;
-  color: black;
-  text - align: left;
-}.container - right {
-  width: 40 % ;
-  background - color: lightgrey;
-  padding: 20px;
-  color: black;
-  text - align: right;
-}
+        .container-left, .container-right {
+               width: 40%; /* Adjust width as needed */
+               background-color: lightgrey;
+               padding: 20px;
+        }

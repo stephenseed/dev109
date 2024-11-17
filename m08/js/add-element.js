@@ -14,4 +14,7 @@ var position = document.getElementsByTagName('ul')[0];
 
 // Insert the new element into its position.
 position.appendChild(newEl);
+
+// Clearing the input window after entry put in the list.
+document.getElementById('items').value = "";
 }

@@ -26,7 +26,7 @@ function moved(event) {
 
 window.addEventListener("mouseup", function() {
   if (isDragging) {
-    setTimeout(() = >{
+    setTimeout(function() {
       isDragging = false;
     },
     50);
@@ -47,6 +47,6 @@ window.addEventListener("click", function(event) {
   }
 });
 
-button.addEventListener("click", event = >{
+button.addEventListener("click", function(event){
   location.reload();
 });

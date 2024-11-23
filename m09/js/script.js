@@ -4,7 +4,7 @@ let newWidth; // Is the size of the dot.
 let bar = document.querySelector("div");
 let button = document.getElementById("clearButton");
 
-bar.addEventListener("mousedown", event => {
+bar.addEventListener("mousedown", function(event) {
   if (event.button == 0) {
     lastX = event.clientX;
     window.addEventListener("mousemove", moved);
@@ -24,7 +24,7 @@ function moved(event) {
   }
 }
 
-window.addEventListener("mouseup", () => {
+window.addEventListener("mouseup", function() {
   if (isDragging) {
     setTimeout(() = >{
       isDragging = false;
@@ -33,7 +33,7 @@ window.addEventListener("mouseup", () => {
   }
 });
 
-window.addEventListener("click", event => {
+window.addEventListener("click", function(event) {
   if (!isDragging) {
     let dot = document.createElement("div");
     dot.className = "dot";

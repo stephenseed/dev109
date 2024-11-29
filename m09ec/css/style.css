@@ -7,10 +7,7 @@
 body {
   background-color: #fff;
   background: url("../images/ispy-image.jpg") no-repeat center center fixed;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  -o-background-size: auto;
-  background-size: auto;
+  background-size: 1600px 1308px;
   margin: 0;
   font-family: 'Open Sans', sans-serif;}
 

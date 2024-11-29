@@ -6,7 +6,7 @@
 
 body {
   background-color: #fff;
-  background: url("../images/ispy-image.jpg") no-repeat center center fixed;
+  background: url("../images/ispy-image.jpg") top left fixed;
   background-size: 1600px 1308px;
   margin: 0;
   font-family: 'Open Sans', sans-serif;}

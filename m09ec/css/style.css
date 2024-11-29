@@ -2,11 +2,11 @@
 /* Extra Credit Exercise as part of M09 - iSpy Game */
 
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
   background-color: #fff;
-  background: url("../images/iSpy-image.jpg") no-repeat center center fixed;
+  background: url("/images/iSpy-image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -6,7 +6,7 @@
 
 body {
   background-color: #fff;
-  background: url("../images/ispy-image.jpg") top left fixed;
+  background: url("https://stephenseed.github.io/dev109/m09ec/images/ispy-image.jpg") top left fixed;
   background-size: 1600px 1308px;
   margin: 0;
   font-family: 'Open Sans', sans-serif;}
@@ -21,18 +21,9 @@ h2 {
   color: #adffda; 
   font-weight: normal;}
 
-h2 + p {
-  margin: 0.25em 0 0 0;}
-p + p {
-  margin: 0;}
-p + h2 {
-  margin: 10px 0 0 0;}
-
-/* instructions under the logo */
+/* instructions */
 
 #instructions {
-  float: left;
-  clear: left;
   background-color: #ffb87a;
   color: #1e1b1e;
   width:170px;
@@ -52,4 +43,3 @@ p + h2 {
 
 .data {
   padding: 10px;}
-

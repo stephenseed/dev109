@@ -6,7 +6,7 @@
 
 body {
   background-color: #fff;
-  background: url("https://stephenseed.github.io/dev109/m09ec/images/ispy-image.jpg") top left fixed;
+  background: url("https://stephenseed.github.io/dev109/m09ec/images/ispy-image.jpg") top left fixed no-repeat;
   background-size: 1600px 1308px;
   margin: 0;
   font-family: 'Open Sans', sans-serif;}
@@ -17,9 +17,73 @@ h1 {
   margin: 0;}
 
 h2 {
-  margin: 1.75em 0 0 0;
-  color: #adffda; 
-  font-weight: normal;}
+  color: blue; 
+  font-weight: normal;
+  margin: 0;}
+
+.gun {
+  position: absolute;
+  top: 94px;
+  left: 324px;
+  width: 334px;
+  height: 133px;
+  margin: 1px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;  /* Change the cursor to show it's clickable */
+  border: 1px solid #333;
+}
+.marble {
+  position: absolute;
+  top: 408px;
+  left: 778px;
+  width:117px;
+  height:111px;
+  margin: 1px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;  /* Change the cursor to show it's clickable */
+  border: 1px solid #333;
+}
+.pig {
+  position: absolute;
+  top: 1188px;
+  left: 617px;
+  width:210px;
+  height:109px;
+  margin: 1px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;  /* Change the cursor to show it's clickable */
+  border: 1px solid #333;
+}
+
+.flower {
+  position: absolute;
+  top: 731px;
+  left: 1324px;
+  width: 130px;
+  height: 138px;
+  margin: 1px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;  /* Change the cursor to show it's clickable */
+  border: 1px solid #333;
+}
+  
+  .train {
+  position: absolute;
+  top: 887px;
+  left: 545px;
+  width: 198px;
+  height: 190px;
+  margin: 1px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;  /* Change the cursor to show it's clickable */
+  border: 1px solid #333;
+}
+
 
 /* instructions */
 

@@ -6,15 +6,40 @@
 
 body {
   background-color: #fff;
-  background: url("https://stephenseed.github.io/dev109/m09ec/images/ispy-image.jpg") top left fixed no-repeat;
+  // background: url("https://stephenseed.github.io/dev109/m09ec/images/ispy-image.jpg") top left fixed no-repeat; //
   background-size: 1600px 1308px;
+  background-attachment: fixed;
   margin: 0;
   font-family: 'Open Sans', sans-serif;}
+  overflow: hidden;
+
+#fixed-image {
+  position: absolute;  /* Fix the image to the top left. */
+  top: 0;
+  left: 0;
+  width: 1600px
+  height: 1308px;
+}
 
 h1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
   white-space: nowrap;
   overflow: hidden;
-  margin: 0;}
+  margin: 0;
+  text-align: left;}
+
+ul {
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  text-align: left;}
 
 h2 {
   color: blue; 
@@ -87,27 +112,3 @@ h2 {
 .strikethrough {
   text-decoration: line-through;
 }
-
-
-/* instructions */
-
-#instructions {
-  background-color: #ffb87a;
-  color: #1e1b1e;
-  width:170px;
-  padding: 18px 30px;
-  text-align: center;}
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #adffda;}
-
-#footer p {
-  padding: 10px;
-  margin: 0;}
-
-.data {
-  padding: 10px;}

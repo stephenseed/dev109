@@ -3,89 +3,84 @@
 
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-body {
-  background-color: #fff;
-  // background: url("https://stephenseed.github.io/dev109/m09ec/images/ispy-image.jpg") top left fixed no-repeat; //
-  background-size: 1600px 1308px;
-  background-attachment: fixed;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;}
-  overflow: hidden;
-
-#fixed-image {
-  position: absolute;  /* Fix the image to the top left. */
-  top: 0;
-  left: 0;
-  width: 1600px
-  height: 1308px;
+  body {
+  background-color:#fff;
+  /* background:url("https://stephenseed.github.io/dev109/m09ec/images/ispy-image.jpg") top left fixed no-repeat;
+  */
+  background-size:1600px 1308px;
+  background-attachment:fixed;
+  margin:0;
+  font-family:'Open Sans',sans-serif;
+  overflow:hidden;
 }
-
+#fixed-image {
+  position:absolute;
+  /* Fix the image to the top left. */
+  top:0;
+  left:0;
+  width:1600px;
+  height:1308px;
+}
 h1 {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 2;
-  white-space: nowrap;
-  overflow: hidden;
-  margin: 0;
-  text-align: left;}
-
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index:2;
+  white-space:nowrap;
+  overflow:hidden;
+  margin:0;
+  text-align:left;
+}
 ul {
-  position: fixed;
-  top: 50px;
-  left: 0px;
-  z-index: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  margin: 0;
-  text-align: left;}
-
+  position:fixed;
+  top:50px;
+  left:0px;
+  z-index:1;
+  white-space:nowrap;
+  overflow:hidden;
+  margin:0;
+  text-align:left;
+}
 h2 {
-  color: blue; 
-  font-weight: normal;
-  margin: 0;}
-
+  color:blue;
+  font-weight:normal;
+  margin:0;
+}
 .gun {
-  position: absolute;
-  top: 94px;
-  left: 324px;
-  width: 334px;
-  height: 133px;
+  position:absolute;
+  top:94px;
+  left:324px;
+  width:334px;
+  height:133px;
 }
 .marble {
-  position: absolute;
-  top: 408px;
-  left: 778px;
+  position:absolute;
+  top:408px;
+  left:778px;
   width:117px;
   height:111px;
 }
 .pig {
-  position: absolute;
-  top: 1188px;
-  left: 617px;
+  position:absolute;
+  top:1188px;
+  left:617px;
   width:210px;
   height:109px;
 }
-
 .flower {
-  position: absolute;
-  top: 731px;
-  left: 1324px;
-  width: 130px;
-  height: 138px;
+  position:absolute;
+  top:731px;
+  left:1324px;
+  width:130px;
+  height:138px;
 }
-  
-  .train {
-  position: absolute;
-  top: 887px;
-  left: 545px;
-  width: 198px;
-  height: 190px;
+.train {
+  position:absolute;
+  top:887px;
+  left:545px;
+  width:198px;
+  height:190px;
 }
-
 .strikethrough {
-  text-decoration: line-through;
+  text-decoration:line-through;
 }
-
-

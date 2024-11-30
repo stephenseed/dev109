@@ -52,11 +52,6 @@ h2 {
   left: 324px;
   width: 334px;
   height: 133px;
-  margin: 1px;
-  text-align: center;
-  line-height: 100px;
-  cursor: pointer;  /* Change the cursor to show it's clickable */
-  border: 1px solid #333;
 }
 .marble {
   position: absolute;
@@ -64,11 +59,6 @@ h2 {
   left: 778px;
   width:117px;
   height:111px;
-  margin: 1px;
-  text-align: center;
-  line-height: 100px;
-  cursor: pointer;  /* Change the cursor to show it's clickable */
-  border: 1px solid #333;
 }
 .pig {
   position: absolute;
@@ -76,11 +66,6 @@ h2 {
   left: 617px;
   width:210px;
   height:109px;
-  margin: 1px;
-  text-align: center;
-  line-height: 100px;
-  cursor: pointer;  /* Change the cursor to show it's clickable */
-  border: 1px solid #333;
 }
 
 .flower {
@@ -89,11 +74,6 @@ h2 {
   left: 1324px;
   width: 130px;
   height: 138px;
-  margin: 1px;
-  text-align: center;
-  line-height: 100px;
-  cursor: pointer;  /* Change the cursor to show it's clickable */
-  border: 1px solid #333;
 }
   
   .train {
@@ -102,13 +82,10 @@ h2 {
   left: 545px;
   width: 198px;
   height: 190px;
-  margin: 1px;
-  text-align: center;
-  line-height: 100px;
-  cursor: pointer;  /* Change the cursor to show it's clickable */
-  border: 1px solid #333;
 }
 
 .strikethrough {
   text-decoration: line-through;
 }
+
+

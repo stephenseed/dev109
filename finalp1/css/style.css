@@ -26,12 +26,14 @@ li {
 
 table {
   width: 600px;}
+
 th, td {
-  padding: 7px 10px 10px 10px;}
+  padding: 7px 10px 10px 10px;
+  text-align: left;}
 
 th {
   text-transform: Uppercase;
-  letter-spacing: 1.1em;
+  letter-spacing: 0.1em;
   fint-sizing: 90%;
   border-bottom: 2px solid #11111;
   border-top: 1px solid #999;

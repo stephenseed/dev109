@@ -13,72 +13,47 @@
 
   // Add event listeners for clicks
 
+function checkGameOver() {
+  let gameOver = true;
+  for (let i = 1; i <= 5; i++){
+    var listItem = document.getElementById('li' + i);
+    if (!listItem.classList.contains('strikethrough')){
+      gameOver = false;
+      break;
+    }
+  }
+  if (gameOver) {
+    alert("Game Over");
+    const restart = confirm("Do you want to start over?");
+    if (restart) {
+      location.reload(); // Reset the game if the user wants to start over
+    }
+  }
+}
     
   object1.addEventListener('click', function() {
     li1.classList.add('strikethrough'); // Add strikethrough to the corresponding list item
-        var gameOver = true;
-    for (var i = 1; i <= 5; i++) {  // Loop through li1 to li5
-      var listItem = document.getElementById('li' + i); // Get the actual DOM element
-      if (listItem.classList.contains('strikethrough')) {
-        // If strikethrough is applied, continue checking other items
-      } else {
-        gameOver = false; // If any item doesn't have strikethrough, set gameOver to false
-      }
-    }
+    setTimeout(checkGameOver, 500);
   });
 
   object2.addEventListener('click', function() {
     li2.classList.add('strikethrough'); // Add strikethrough to the corresponding list item
-        var gameOver = true;
-    for (var i = 1; i <= 5; i++) {  // Loop through li1 to li5
-      var listItem = document.getElementById('li' + i); // Get the actual DOM element
-      if (listItem.classList.contains('strikethrough')) {
-        // If strikethrough is applied, continue checking other items
-      } else {
-        gameOver = false; // If any item doesn't have strikethrough, set gameOver to false
-      }
-    }
+    setTimeout(checkGameOver, 500);
   });
 
   object3.addEventListener('click', function() {
     li3.classList.add('strikethrough'); // Add strikethrough to the corresponding list item
-        var gameOver = true;
-    for (var i = 1; i <= 5; i++) {  // Loop through li1 to li5
-      var listItem = document.getElementById('li' + i); // Get the actual DOM element
-      if (listItem.classList.contains('strikethrough')) {
-        // If strikethrough is applied, continue checking other items
-      } else {
-        gameOver = false; // If any item doesn't have strikethrough, set gameOver to false
-      }
-    }
+    setTimeout(checkGameOver, 500);
   });
 
   object4.addEventListener('click', function() {
     li4.classList.add('strikethrough'); // Add strikethrough to the corresponding list item
-        var gameOver = true;
-    alert('Is the game over (1) : ' + gameOver);
-    
-    for (var i = 1; i <= 5; i++) {  // Loop through li1 to li5
-      var listItem = document.getElementById('li' + i); // Get the actual DOM element
-      if (listItem.classList.contains('strikethrough')) {
-        // If strikethrough is applied, continue checking other items
-      } else {
-        gameOver = false; // If any item doesn't have strikethrough, set gameOver to false
-      }
-    }
+    setTimeout(checkGameOver, 500);
   });
 
   object5.addEventListener('click', function() {
     li5.classList.add('strikethrough'); // Add strikethrough to the corresponding list item
-        var gameOver = true;
-    for (var i = 1; i <= 5; i++) {  // Loop through li1 to li5
-      var listItem = document.getElementById('li' + i); // Get the actual DOM element
-      if (listItem.classList.contains('strikethrough')) {
-        // If strikethrough is applied, continue checking other items
-      } else {
-        gameOver = false; // If any item doesn't have strikethrough, set gameOver to false
-      }
-    }
+    setTimeout(checkGameOver, 500);
   });
 
 

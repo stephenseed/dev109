@@ -84,6 +84,10 @@ h2 {
   border: 1px solid #333;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
 
 /* instructions */
 

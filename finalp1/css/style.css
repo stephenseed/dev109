@@ -28,7 +28,7 @@ li {
   overflow:auto;
 }
 #feature {
-  height:10em;
+  height:15em;
   margin-bottom:1em;
   margin:1%;
   background-color:#8CC63E;
@@ -37,7 +37,6 @@ li {
   background-repeat:no-repeat;
 }
 #feature2 {
-  font-family:"Dancing Script",cursive;
   text-align:left;
   height:100em;
   margin-bottom:1em;

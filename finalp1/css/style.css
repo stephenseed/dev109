@@ -75,6 +75,9 @@ tr:hover {
 }
 /* Defining Classes */
 
+.rotated-video {
+  transform: rotate(90deg);
+}
 .thumbnailImage {
       width: 100px;
       height: 100px;

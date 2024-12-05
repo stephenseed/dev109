@@ -78,6 +78,7 @@ tr:hover {
 .thumbnailImage {
       width: 100px;
       height: 100px;
+}
 .clearfix::after {
   content:"";
   clear:both;

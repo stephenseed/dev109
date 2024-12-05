@@ -39,7 +39,7 @@ th, td {
 th {
   text-transform: Uppercase;
   letter-spacing: 0.1em;
-  font-sizing: 90%;
+  font-size: 90%;
   border-bottom: 2px solid black;
   border-top: 1px solid black;
   text-align: left;}

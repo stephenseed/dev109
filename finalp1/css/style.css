@@ -40,8 +40,8 @@ th {
   text-transform: Uppercase;
   letter-spacing: 0.1em;
   font-sizing: 90%;
-  border-bottom: 2px solid #11111;
-  border-top: 1px solid #999;
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
   text-align: left;}
 
 tr.even {

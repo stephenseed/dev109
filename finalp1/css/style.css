@@ -1,3 +1,4 @@
+/* standard formatting for all elements unless otherwise defined below */
 * {
   font-family:"Roboto";
   color:black;
@@ -10,11 +11,9 @@ body {
   background-image:url("https://stephenseed.github.io/dev109/finalp1/images/pexels-valeriya-1961778-v4 (1).jpg");
   background-repeat:no-repeat;
 }
-
 h1 {
-  text-align: center;
+  text-align:center;
 }
-
 p,title {
   color:black;
 }
@@ -28,32 +27,34 @@ li {
   display:inline;
   padding:0.5em;
 }
-
 table {
-  width: 800px;}
-
-th, td {
-  padding: 7px 10px 10px 10px;
-  text-align: left;}
-
+  width:800px;
+}
+th,td {
+  padding:7px 10px 10px 10px;
+  text-align:left;
+}
 th {
-  text-transform: Uppercase;
-  letter-spacing: 0.1em;
-  font-size: 90%;
-  border-bottom: 2px solid black;
-  border-top: 1px solid black;
-  text-align: left;}
-
+  text-transform:Uppercase;
+  letter-spacing:0.1em;
+  font-size:90%;
+  border-bottom:2px solid black;
+  border-top:1px solid black;
+  text-align:left;
+}
 tr.even {
-  background-color: #efefef;}
-
+  background-color:#efefef;
+}
 tr:hover {
-  background-color: #c3e6e5;}
+  background-color:#c3e6e5;
+}
 /* Defining ID formatting */
         
 #content {
   overflow:auto;
 }
+
+/* This allows for a standard look and feel for the majority of the pages. */
 #feature {
   height:45em;
   margin-bottom:1em;
@@ -63,6 +64,8 @@ tr:hover {
   background-position:right;
   background-repeat:no-repeat;
 }
+
+/* The validation page needs to be longer because of the number of images show.
 #feature2 {
   text-align:left;
   height:175em;
@@ -76,8 +79,8 @@ tr:hover {
 /* Defining Classes */
 
 .thumbnailImage {
-      width: 100px;
-      height: 100px;
+  width:100px;
+  height:100px;
 }
 .clearfix::after {
   content:"";

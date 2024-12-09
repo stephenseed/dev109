@@ -12,6 +12,7 @@ function printRhombus(pHeight,symbol) {
     for (let i = pHeight - 2; i >= 0; i--) {
         rhombus += ' '.repeat(pHeight - i - 1) + symbol.repeat(2 * i + 1) + '\n';
     }
-    console.log(rhombus);
+    document.getElementById('rhombus-container').innerHTML = rhombus;
+
 }
  

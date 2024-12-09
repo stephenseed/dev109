@@ -58,10 +58,10 @@ document.getElementById("downRight").innerHTML = rLine;
 }
 function printRhombus(pHeight) {
     let rhombus = '';
-    for (let i = 0; i < rHeight; i++) {
+    for (let i = 0; i < pHeight; i++) {
         rhombus += ' '.repeat(pHeight - i - 1) + symbol.repeat(2 * i + 1) + '\n';
     }
-    for (let i = size - 2; i >= 0; i--) {
+    for (let i = pHeight - 2; i >= 0; i--) {
         rhombus += ' '.repeat(pHeight - i - 1) + symbol.repeat(2 * i + 1) + '\n';
     }
     console.log(rhombus);

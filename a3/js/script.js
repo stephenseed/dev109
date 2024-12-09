@@ -4,7 +4,7 @@
 // var symbol ="*";
 
 
-function printRhombus(pHeight) {
+function printRhombus(pHeight,symbol) {
     let rhombus = '';
     for (let i = 0; i < pHeight; i++) {
         rhombus += ' '.repeat(pHeight - i - 1) + symbol.repeat(2 * i + 1) + '\n';

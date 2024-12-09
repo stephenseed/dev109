@@ -13,6 +13,6 @@ function printRhombus(pHeight,symbol) {
         rhombus += ' '.repeat(pHeight - i - 1) + symbol.repeat(2 * i + 1) + <br>;
     }
     document.getElementById('rhombus-container').innerHTML = rhombus;
-
+console.log(rhombus);
 }
  

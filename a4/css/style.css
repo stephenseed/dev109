@@ -19,6 +19,15 @@ p,title {
   color:black;
 }
 
+#feature {
+  height:45em;
+  margin-bottom:1em;
+  margin:1%;
+  background-color:#8CC63E;
+  background-size:contain;
+  background-position:right;
+  background-repeat:no-repeat;
+}
 
 #errorMessages{
 color:red;

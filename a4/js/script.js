@@ -126,5 +126,8 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
 //4) send error messages 
 
 //5) return the status of each field
-
+// Check if all fields are valid
+var allValid = valid.every(function(v) { return v === true; });
+// Return the status of the form
+return allValid;
 }

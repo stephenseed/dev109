@@ -23,11 +23,11 @@ else {
 }
 // Last Name Validation
   if (answer[1]==="null" || answer[1]==="" || answer[1].length > 50) {
-    document.getElementById("LastnameError").innerHTML = "<p style='color:red;'><b>The lastname is required and cannot be greater than 20 characters</b></p>";
+    document.getElementById("LastNameError").innerHTML = "<p style='color:red;'><b>The lastname is required and cannot be greater than 20 characters</b></p>";
   }
   else {
    valid[1] = true;
-   document.getElementById("LastnameError").innerHTML = "";
+   document.getElementById("LastNameError").innerHTML = "";
   }
   
 // e-mail validation

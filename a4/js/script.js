@@ -87,9 +87,6 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
     valid[8]=true;
   }
 
-
-  
-
 // Country Validation
   if (answer[9]===null || answer[9]==="") {
   errorMessages += "<p>The Country is required.</p>";
@@ -97,7 +94,21 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
   else {
     valid[9]=true;
   }
+
+// Zip Code Validation
+  if (answer[9]==="USA") {
+    if (answer[10].length >5 || answer[10]===null || answer[10]==="") {
+    errorMessages += "<p>The zipcode is required.</p>";
+    }
+    else {
+      valid[10]=true;
+    }
+  else {
+    valid[10]=true;
+  }
   
+// Comment Validation is NOT required.
+  valid[11] = true;
   
 //--------------------------------------------------------------------------------------//
 //4) send error messages 

@@ -7,7 +7,7 @@ for (var i=0; i < fieldNames.length; i++) {
   valid[i]=false;
   answer[i] = document.getElementById(fieldNames[i]);
 }
-  console.show(answer);
+  console.log(answer);
     
 //2) create variables to read the values from html text inputs
 

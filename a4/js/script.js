@@ -4,6 +4,7 @@ var valid = [];
 var fieldNames = ['FirstName','Lastname','email','Phone','Username','Password','Address','City','State','Country','ZipCode','Comments'];
 var answer = [];
 var errorMessages = "";
+  debugger;
 for (var i=0; i < fieldNames.length; i++) {
   valid[i]=false;
   answer[i] = document.getElementById(fieldNames[i]).value;

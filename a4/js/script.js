@@ -125,9 +125,6 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
 //--------------------------------------------------------------------------------------//
 //4) send error messages 
 
-// First Name
-document.getElementById("errorMessages").innerHTML = errorMessages;
-  
 //5) return the status of each field
 
 }

@@ -9,24 +9,23 @@
     <body>
         <section id="feature">
          <form id="myform" action="thankyou.html" onsubmit="return validateForm();">
-
             <p>
-                <fieldset>
+            <fieldset>
                 <legend><b>Name Information</b></legend>    
                 <label for='FirstName'>First Name:</label>
                 <input type="text" id="FirstName" name="FirstName" /><br>
                 <label for='LastName'>Last Name:</label>
                 <input type="text" id="Lastname" name="LastName" />
-                </fieldset>
-                <br>
-                <fieldset>
-                    <legend><b>Contact Information</b></legend>
-                    <label for='email'>email:</label>
-                    <input type="text" id="email" name="email" /><br>
-                    <label for='Phone'>Phone:</label>
-                    <input type="text" id="Phone" name="Phone" />
-                 </fieldset>
-                <br>
+             </fieldset>
+             <br>
+             <fieldset>
+                  <legend><b>Contact Information</b></legend>
+                  <label for='email'>email:</label>
+                  <input type="text" id="email" name="email" /><br>
+                  <label for='Phone'>Phone:</label>
+                  <input type="text" id="Phone" name="Phone" />
+              </fieldset>
+              <br>
             <fieldset>
                 <legend><b>User Information</b></legend>
                 <label for='Username'>User Name:</label>
@@ -42,17 +41,16 @@
                 <label for='City'>City:</label>
                 <input type="text" id="City" name="City" /><br>
                 <script>
-
-                document.addEventListener("DOMContentLoaded", function() {
-  var states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "Washington D.C", "West Virginia", "Wisconsin", "Wyoming"];
-  var select = document.getElementById("states");
-  states.forEach(function(state) {
-    var option = document.createElement("option");
-    option.value = state.toLowerCase().replace(/ /g, "-");
-    option.textContent = state;
-    select.appendChild(option);
-  });
-});
+                    document.addEventListener("DOMContentLoaded", function() {
+                        var states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "Washington D.C", "West Virginia", "Wisconsin", "Wyoming"];
+                        var select = document.getElementById("states");
+                        states.forEach(function(state) {
+                            var option = document.createElement("option");
+                            option.value = state.toLowerCase().replace(/ /g, "-");
+                            option.textContent = state;
+                            select.appendChild(option);
+                          });
+                    });
                 </script>
                 <label for='states'>State:</label>
                 <select id="states" name="state"></select><br>
@@ -74,11 +72,9 @@
             </fieldset>
             </p>
             <div class="warning" id="fname"></div>
-            
             <p>
                 <input type="submit" id="submit" name="submit" value="Submit">
             </p>
-        
             <div id="errorMessages"></div>
         
         </form>

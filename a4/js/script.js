@@ -3,7 +3,7 @@ function validateForm(){
 var valid = [];
 var fieldNames = ['FirstName','Lastname','email','Phone','Username','Password','Address','City','State','Country','ZipCode','Comments'];
 var answer = [];
-var errorMessage = "";
+var errorMessages = "";
 for (var i=0; i < fieldNames.length; i++) {
   valid[i]=false;
   answer[i] = document.getElementById(fieldNames[i]).value;
@@ -103,6 +103,7 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
     else {
       valid[10]=true;
     }
+  }
   else {
     valid[10]=true;
   }

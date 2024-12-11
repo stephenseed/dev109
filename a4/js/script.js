@@ -33,7 +33,7 @@ else {
 var atpos = answer[2].indexOf("@");
 var dotpos = answer[2].lastIndexOf(".");
 if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=answer[2].length) {
-    errorMessage += "<p>Invalid e-mail address - must contain a . and @ sign.<p>";
+    errorMessages += "<p>Invalid e-mail address - must contain a . and @ sign.<p>";
 }
 else {
   valid[2] = true

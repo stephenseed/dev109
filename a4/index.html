@@ -40,8 +40,19 @@
                 <input type="text" id="Address" name="Address" /><br>
                 <label for='City'>City:</label>
                 <input type="text" id="City" name="City" /><br>
-                <label for='State'>State:</label>
-                <input type="text" id="State" name="State" /><br>
+                <script>
+                document.addEventListener("DOMContentLoaded", function() {
+  var states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"];
+  var select = document.getElementById("states");
+  states.forEach(function(state) {
+    var option = document.createElement("option");
+    option.value = state.toLowerCase().replace(/ /g, "-");
+    option.textContent = state; select.appendChild(option);
+  });
+});
+                </script>
+                <label for='states'>State:</label>
+                <select id="states" name="state" /><br>
                 <label for='Country'>Country:</label>
                 <input type="text" id="Country" name="Country" /><br>
                 <label for='Zip Code'>Zip Code:</label>

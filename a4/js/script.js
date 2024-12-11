@@ -3,7 +3,7 @@ function validateForm(){
 var valid = [];
 var fieldNames = ['FirstName','Lastname','email','Phone','Username','Password','Address','City','State','Country','ZipCode','Comments'];
 var answer = [];
-var errorMessage;
+var errorMessage = "";
 for (var i=0; i < fieldNames.length; i++) {
   valid[i]=false;
   answer[i] = document.getElementById(fieldNames[i]).value;
@@ -31,8 +31,8 @@ else {
   
 // e-mail validation
 var atpos = answer[2].indexOf("@");
-var dotpos = uanswer[2].lastIndexOf(".");
-if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
+var dotpos = answer[2].lastIndexOf(".");
+if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=answer[2].length) {
     errorMessage += "<p>Invalid e-mail address - must contain a . and @ sign.<p>";
 }
 else {
@@ -56,7 +56,7 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
   }
 
 // Password Validation
-  if (answer[5].length > 7 || answer[5]===null || answer[5]==="") {
+  if (answer[5].length < 7 || answer[5]===null || answer[5]==="") {
   errorMessages += "<p>The password is required.</p>";
 }
   else {

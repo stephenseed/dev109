@@ -25,6 +25,12 @@ h1, h2 {
   width: 800px;
 }
 
+fieldset {
+  background-color: #D3D3D3;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 #errorMessages,
 #FirstNameError,
 #LastNameError,

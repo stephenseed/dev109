@@ -32,17 +32,17 @@ title {
 }
 
 #errorMessages,
-#FirstNameError p,
-#LastNameError p,
-#emailError p,
-#PhoneError p,
-#UsernameError p,
-#PasswordError p,
-#AddressError p,
-#CityError p,
-#StateError p,
-#CountryError p,
-#ZipCodeError p {
+#FirstNameError,
+#LastNameError,
+#emailError,
+#PhoneError,
+#UsernameError,
+#PasswordError,
+#AddressError,
+#CityError,
+#StateError,
+#CountryError,
+#ZipCodeError {
   color: red;
   font-weight: bold;
   display: inline;

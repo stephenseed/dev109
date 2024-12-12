@@ -34,7 +34,7 @@ else {
 var atpos = answer[2].indexOf("@");
 var dotpos = answer[2].lastIndexOf(".");
 if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=answer[2].length) {
-    document.getElementById("emailError").innerHTML = "<p style='color:red;'><p>Invalid e-mail address - must contain a . and @ sign.<p>";
+    document.getElementById("emailError").innerHTML = "<p style='color:red;'><b>Invalid e-mail address - must contain a . and @ sign.</b></p>";
 }
 else {
   valid[2] = true
@@ -43,7 +43,7 @@ else {
   
 // Phone validation
 if (isNaN(answer[3]) || answer[3].length >15 || answer[3]===null || answer[3]==="") {
-  document.getElementById("PhoneError").innerHTML = "<p style='color:red;'><p>Invalid Phone Number or must be provided.</p>";
+  document.getElementById("PhoneError").innerHTML = "<p style='color:red;'><b>Invalid Phone Number or must be provided.</b></p>";
 }
 else {
   valid[3]=true;
@@ -52,7 +52,7 @@ else {
 
 // Username validation
 if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
-  document.getElementById("UsernameError").innerHTML = "<p style='color:red;'><p>The username is required.</p>";
+  document.getElementById("UsernameError").innerHTML = "<p style='color:red;'><b>The username is required.</b></p>";
 }
   else {
     valid[4]=true;
@@ -61,7 +61,7 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
 
 // Password Validation
   if (answer[5].length < 7 || answer[5]===null || answer[5]==="") {
-  document.getElementById("PasswordError").innerHTML = "<p style='color:red;'><p>The password is required.</p>";
+  document.getElementById("PasswordError").innerHTML = "<p style='color:red;'><b>The password is required.</b></p>";
 }
   else {
     valid[5]=true;
@@ -70,7 +70,7 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
 
 // Address validation
   if (answer[6]===null || answer[6]==="") {
-  document.getElementById("AddressError").innerHTML = "<p style='color:red;'><p>The address is required.</p>";
+  document.getElementById("AddressError").innerHTML = "<p style='color:red;'><b>The address is required.</b></p>";
 }
   else {
     valid[6]=true;
@@ -79,7 +79,7 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
 
 // City Validation
   if (answer[7]===null || answer[7]==="") {
-  document.getElementById("CityError").innerHTML = "<p style='color:red;'><p>The city is required.</p>";
+  document.getElementById("CityError").innerHTML = "<p style='color:red;'><b>The city is required.</b></p>";
 }
   else {
     valid[7]=true;
@@ -88,7 +88,7 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
 
 // State Validation
   if (answer[8]===null || answer[8]==="") {
-  document.getElementById("StateError").innerHTML = "<p style='color:red;'><p>The state is required.</p>";
+  document.getElementById("StateError").innerHTML = "<p style='color:red;'><b>The state is required.</b></p>";
 }
   else {
     valid[8]=true;
@@ -97,7 +97,7 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
 
 // Country Validation
   if (answer[9]===null || answer[9]==="") {
-  document.getElementById("CountryError").innerHTML = "<p style='color:red;'><p>The Country is required.</p>";
+  document.getElementById("CountryError").innerHTML = "<p style='color:red;'><b>The Country is required.</b></p>";
 }
   else {
     valid[9]=true;
@@ -107,7 +107,7 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
 // Zip Code Validation
   if (answer[9]==="USA") {
     if (answer[10].length >5 || answer[10]===null || answer[10]==="") {
-    document.getElementById("ZipCodeError").innerHTML = "<p style='color:red;'><p>The zipcode is required.</p>";
+    document.getElementById("ZipCodeError").innerHTML = "<p style='color:red;'><b>The zipcode is required.</b></p>";
     }
     else {
       valid[10]=true;

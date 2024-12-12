@@ -52,7 +52,7 @@ else {
 
 // Username validation
 if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
-  document.getElementById("UsernameError").innerHTML = "The username is required.";
+  document.getElementById("UsernameError").innerHTML = "The username is required and a max of 12chrs.";
 }
   else {
     valid[4]=true;
@@ -60,8 +60,8 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
   }
 
 // Password Validation
-  if (answer[5].length < 7 || answer[5]===null || answer[5]==="") {
-  document.getElementById("PasswordError").innerHTML = "The password is required.";
+  if (answer[5].length > 7 || answer[5]===null || answer[5]==="") {
+  document.getElementById("PasswordError").innerHTML = "The password is required a max of 7chrs.";
 }
   else {
     valid[5]=true;

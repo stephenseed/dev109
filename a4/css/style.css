@@ -42,5 +42,9 @@ title {
 #CityError p,
 #StateError p,
 #CountryError p,
-#ZipCodeError p
-{ color: red; font-weight: bold; display: inline; margin-left: 10px; }
+#ZipCodeError p {
+  color: red;
+  font-weight: bold;
+  display: inline;
+  margin-left: 10px;
+}

@@ -22,7 +22,7 @@ function validateForm() {
   }
   // Last Name Validation
   if (answer[1] === "null" || answer[1] === "" || answer[1].length > 50) {
-    document.getElementById("LastNameError").innerHTML = "The lastname is required and cannot be greater than 20 characters";
+    document.getElementById("LastNameError").innerHTML = "The lastname is required and cannot be greater than 50 characters";
   } else {
     valid[1] = true;
     document.getElementById("LastNameError").innerHTML = "";

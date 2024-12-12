@@ -1,7 +1,7 @@
 function validateForm(){
 //1) create a variable to control status of each field. Assume that they are not valid
 var valid = [];
-var fieldNames = ['FirstName','Lastname','email','Phone','Username','Password','Address','City','State','Country','ZipCode','Comments'];
+var fieldNames = ['FirstName','LastName','email','Phone','Username','Password','Address','City','State','Country','ZipCode','Comments'];
 var answer = [];
 
 for (var i=0; i < fieldNames.length; i++) {

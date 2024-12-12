@@ -31,6 +31,16 @@ title {
   width: 800px;
 }
 
-#errorMessages{
-color:red;
-}
+#errorMessages,
+#FirstNameError p,
+#LastNameError p,
+#emailError p,
+#PhoneError p,
+#UsernameError p,
+#PasswordError p,
+#AddressError p,
+#CityError p,
+#StateError p,
+#CountryError p,
+#ZipCodeError p
+{ color: red; font-weight: bold; display: inline; margin-left: 10px; }

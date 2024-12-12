@@ -14,7 +14,7 @@ for (var i=0; i < fieldNames.length; i++) {
 //3) do the validation
 
 // First Name Validation
-if (answer[0]==="null" || answer[0]==="" || answer[0].length > 20) {
+if (answer[0]===null || answer[0]==="" || answer[0].length > 20) {
     document.getElementById("FirstNameError").innerHTML = "<p style='color:red;'><b>The firstname is required and cannot be greater than 20 characters</b></p>";
 }
 else {

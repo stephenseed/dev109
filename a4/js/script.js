@@ -106,8 +106,8 @@ if (answer[4].length > 12 || answer[4]===null || answer[4]==="") {
 
 // Zip Code Validation
   if (answer[9]==="USA") {
-    if (answer[10].length >5 || answer[10]===null || answer[10]==="") {
-    document.getElementById("ZipCodeError").innerHTML = "<p style='color:red;'><b>The zipcode is required.</b></p>";
+    if (answer[10].length >5 || answer[10]===null || answer[10]==="" || isNaN(answer[10])) {
+    document.getElementById("ZipCodeError").innerHTML = "<p style='color:red;'><b>The zipcode is required and numeric only.</b></p>";
     }
     else {
       valid[10]=true;

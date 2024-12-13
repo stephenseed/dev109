@@ -34,7 +34,8 @@ function validateForm() {
   if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= answer[2].length) {
     document.getElementById("emailError").innerHTML = "Invalid e-mail address - must contain a . and @ sign.";
   } else {
-    valid[2] = true document.getElementById("emailError").innerHTML = "";
+    valid[2] = true;
+    document.getElementById("emailError").innerHTML = "";
   }
 
   // Phone validation
